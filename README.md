@@ -13,7 +13,7 @@
 
 ## Projects
 here you can find the projects i have created to accomplish this learning path and obtain a certification.
-* Tribute Page: [Page](https://codepen.io/b_chernev/full/oNdgPZG) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
+* Tribute Page: [Page](https://codepen.io/b_chernev/full/jOxbedr) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-tribute-page)
 * Survey Form: [Page](https://codepen.io/b_chernev/full/abGzaWp) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form)
 * Product Landing Page: [Page](https://codepen.io/b_chernev/full/ExLaewZ) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page)
 * Technical Documentation Page: [Page](https://codepen.io/b_chernev/full/mdxeyry) | [Requirements](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-technical-documentation-page)
