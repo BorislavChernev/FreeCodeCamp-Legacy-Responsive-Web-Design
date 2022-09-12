@@ -1,0 +1,74 @@
+<link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="style.css"> 
+  </header>
+  <title>Survey Form</title>
+  </header>
+  
+  <body>
+    <div id="background"></div>
+    <form id="survey-form">
+          <h1 id="title" align="left">
+     Customer Satisfaction Survey
+    </h1>
+    <p>We would like to know your opinion as a customer.</p>
+    <p id="description" align="left">Form description
+  </p>
+  <div id="formDescription">
+        <label class="" for="email" id="email-label">
+        <p>Email address: </p>
+        <input id="Email address:" class="inputs shadow" type="email" name="email" placeholder="Valid email address" required>
+        </input>
+        </label> <br>    
+      <div class="line"></div>
+  <label class="" for"name" id="name-label">
+        <p>Name:</p>
+        <input id="name" class="inputs shadow" name="name" placeholder="Name" required>
+        </input>
+      </label> <br>
+      <div class="line"></div>
+  
+      <label class="" for"number" id="number-label" name="number">
+        <p>Age:</p>
+        <input id="number" class="inputs shadow" type="number" min="18" max="100" placeholder="Age">
+        </input>
+      </label> <br>
+        <div class="line"></div>
+
+  <a class=""><p>Country:</p></a>
+      <select id="dropdown" class="inputs shadow">
+      <option value="Bulgaria">Bulgaria</option>
+      <option value="Greece">Greece</option>
+      <option value="Romania">Romania</option>
+      <option value="Serbia">Serbia</option>
+      <option value="Norther Macedonia">Northern Macedonia</option>
+      <option value="Turkey">Turkey</option>
+      </select>
+        <div class="line3"></div>
+      <br> <br> <br>
+  </div>
+      <field>
+          <a class="selector"> Gender: </a><div class="line2"></div>
+          <input class="check" name="Language" type="radio" value="en">Male</input> <br>
+          <input class="check" name="Language" type="radio" value="bg">Female</input>  
+    </field> <br> <br> <br> <br>
+  
+      <field class="field">
+        <a class="selector"> Degree: </a><div class="line2"></div>
+      <input class="check" name="degree" type="radio" value="Bachelor's degree">Bachelor's degree</input> <br>
+      <input class="check" name="degree" type="radio" value="Master's degree">Master's degree</input>
+      </field> <br> <br> <br> <br>
+   
+      <field class="field">
+        <a class="selector">Interested in:</a><div class="line2"></div>
+        <input class="check" type="checkbox" value="software-engineering"> Software engineering</input> <br>
+        <input class="check" type="checkbox" value="game-development" > Game development</input>
+      </field > <br> <br> <br> <br>
+      <field class="field">
+        What do you like / Don't like about our program?
+        <div class="line2"></div>
+        <textarea class="shadow" placeholder="Enter your recommendation here:" required></textarea> <br> <br>
+      </field>
+  
+      <button id="submit"> Submit Form</button>
+    </form>
+  </body>

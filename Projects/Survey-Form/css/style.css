@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+	background: #ede7f7;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	margin-left: 0.2rem;
+	margin-top: -0.5rem;
+	font-weight: 500;
+}
+
+#background {
+	z-index: -1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10%;
+	background-color: #6a30ba;
+}
+
+#description {
+	color: #8e8e8e;
+	font-size: 14px;
+}
+
+#formDescription {
+	font-weight: 500;
+	font-size: 21px;
+}
+
+#formDescription p {
+	margin-left: 0.25rem;
+	margin-bottom: 0.3rem;
+}
+
+form {
+	margin-top: 25rem;
+	font-size: 18px;
+	background: #ffffff;
+	border-radius: 0.25rem;
+	padding: 4rem 2.5rem;
+	width: 750px;
+	margin: auto;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.inputs {
+	display: block;
+	width: 75%;
+	height: 2.1rem;
+	margin-bottom: -0.25rem;
+	border: 1px solid #fff;
+	border-radius: 0.25rem;
+	resize: none;
+	outline: none;
+}
+
+textarea {
+	padding: 0.5rem;
+	width: 90%;
+	height: 10%;
+	border-radius: 0.25rem;
+}
+
+button {
+	width: 30%;
+	padding: 0.8rem;
+	border: 1px white;
+	border-radius: 0.25rem;
+	color: white;
+	background: #6a30ba;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	transition: 0.2s;
+}
+
+button:hover {
+	transition: 0.2s;
+	background: #8355c3;
+}
+
+textarea {
+	height: 125px;
+	margin-top: -10px;
+	border: 1px solid black;
+	background-color: white;
+	resize: none;
+	outline: none;
+}
+
+.line {
+	background-color: #cecece;
+	width: 75%;
+	height: 1px;
+	margin-bottom: 1rem;
+	margin-top: -1.6rem;
+}
+
+.line2 {
+	background-color: #cecece;
+	width: 90%;
+	height: 1px;
+	margin-top: 1rem;
+}
+
+.line3 {
+	background-color: #cecece;
+	width: 75%;
+	height: 1px;
+	margin-top: 0.2rem;
+}
+
+.selector {
+	font-weight: 500;
+	font-size: 21px;
+	margin-top: 2rem;
+}
+
+.check {
+	margin-top: 1.75rem;
+}
+
+input::placeholder {
+	color: #b0b0b0;
+}
+
+@media (max-width: 976px) {
+	form {
+		max-width: fit-content;
+	}
+}
